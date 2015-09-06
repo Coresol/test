@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+				*{
+					margin: 0px;
+					padding: 0px;
+				}
+				
+				.header
+					{
+						overflow: hidden;
+						background-color:#FFFF99;
+						margin: 0px auto;
+						border-bottom: 2px solid red;
+					}	
+				.wrapper
+					{
+						width:940px;
+						background-color:#9933CC;
+						margin: auto;
+						overflow: hidden;
+						
+					}
+				.life
+					{
+						width: 113px;
+						height: 77px;
+						background-color:#003399;
+						float: left;
+						overflow: hidden;
+						
+					}
+				.nav
+					{
+						width: 430px;
+						overflow: hidden;
+						background-color:#003399;
+						float: right;
+						margin: 0px 0px 44px 0px;
+					}
+				.donate
+					{
+						width: 100px;
+						height: 33px;
+						background-color:#CC0033;
+						margin: 0px 0px 0px 331px;
+						overflow: hidden;
+					}
+				.navbar
+					{
+						width: 430px;
+						height: 28px;
+						background-color:#CC0033;
+						margin-top: 27px;
+						overflow: hidden;
+					}
+					 
+
+				.slider
+					{
+						
+						
+						background-color:#505050 ;
+						margin: auto;
+						border-bottom: 2px solid #FFFF00;
+						overflow: hidden;
+					}
+				.ups
+					{
+					width: 940px;
+					height:350px;
+					background-color:#00FF99;
+					margin: 0px auto;
+					overflow: hidden;
+					}
+				.rightup
+					{
+					width: 475px;
+					height: 95px;
+					background-color: black;
+					float: right;
+					margin: 130px 0px;
+					overflow: hidden;
+					}
+				.bottoms
+					{
+					width: 940px;
+					overflow: hidden;
+					background-color:#CC0033;
+					margin: 95px auto 95px auto;
+					
+					}
+				.leftb
+					{
+					width: 454px;
+					overflow: hidden;
+					background-color:#CCCCCC;
+					
+					float: left;
+					}
+				.leftbb
+					{
+					width: 224px;
+					height: 193px;
+					background-color:#00FF00;
+					float: left;
+					overflow: hidden;
+					}
+					
+				.rightbb
+					{
+					width: 219px;
+					height: 151px;
+					background-color:#990099;
+					float: right;
+					margin : 30px 0px 0px 0px;
+					overflow: hidden;
+					}
+					
+				.rightb
+				
+					{
+					width: 378px;
+					height: 193px;
+					background-color:#CC33CC;
+					float:right;
+					overflow: hidden;
+					}	
+					
+				.main
+					{
+					overflow: hidden;
+					background-color:#330099;
+					
+					}
+				.agenda
+					{
+					 width:940px;
+					 overflow:hidden;
+					 background-color:black;
+					 margin: 95px auto 95px auto;
+					 }
+				.leftm
+					{
+					width:221px;
+					overflow: hidden;
+					background-color:#006633;
+					float: left;
+					
+					}
+				.latestnews
+					{
+						width:106px;
+						height: 22px;
+						background-color:#660099;
+						overflow: hidden;
+					}
+				.upm
+					{
+					width:186px;
+					overflow: hidden;
+					background-color:black;
+					margin: 29px 0px;
+					}
+				.jan1
+					{
+					width:186px;
+					overflow: hidden;
+					background-color:white;
+				
+					}
+				.jan29
+					{
+					width:61px;
+					height: 59px;
+					background-color:red;
+					float: left;
+					overflow: hidden;
+					}
+				.viva
+					{
+					width:111px;
+					height: 51px;
+					background-color:red;
+					float: right;
+					margin: 4px 0px 4px 0px;
+					overflow: hidden;
+					}
+					
+				.jan2
+					{
+					width:186px;
+					overflow: hidden;
+					background-color:white;
+					margin: 17px 0px;
+					
+					}
+				.feb2
+					{
+					width:61px;
+					height: 59px;
+					background-color:red;
+					float: left;
+					overflow: hidden;
+					}
+				.dere
+					{
+					width:111px;
+					height: 51px;
+					background-color:red;
+					float: right;
+					margin: 4px 0px 4px 0px;
+					overflow: hidden;
+					}
+				.jan3
+					{
+					width:186px;
+					overflow: hidden;
+					background-color:white;
+					margin: 17px 0px;
+					
+					}
+				.feb20
+					{
+					width:61px;
+					height: 59px;
+					background-color:red;
+					float: left;
+					overflow: hidden;
+					}
+				.hova
+					{
+					width:111px;
+					height: 51px;
+					background-color:red;
+					float: right;
+					margin: 4px 0px 4px 0px;
+					overflow: hidden;
+					}
+				.jan4
+					{
+					width:186px;
+					overflow: hidden;
+					background-color:white;
+					margin: 17px 0px;
+					
+					}
+				.march5
+					{
+					width:61px;
+					height: 59px;
+					background-color:red;
+					float: left;
+					overflow: hidden;
+					}
+				.melo
+					{
+					width:111px;
+					height: 51px;
+					background-color:red;
+					float: right;
+					margin: 4px 0px 4px 0px;
+					overflow: hidden;
+					}
+				.downm
+					{
+					width:220px;
+					overflow: hidden;
+					background-color:#FFFF00;
+					margin: 57px auto 0px auto;
+					}
+				.testimonials
+					{
+					width:220px;
+					height: 75px;
+					background-color:gray;
+					overflow: hidden;
+					
+					}
+				.quote	
+					{
+					width:220px;
+					height: 151px;
+					background-color:white;
+					overflow: hidden;
+					
+					}
+					
+				.rightm
+					{
+					width:700px;
+					overflow: hidden;
+					background-color:#181818;
+					float: right;
+					
+					}
+				.campaign
+					{
+					width:123px;
+					height: 23px;
+					overflow: hidden;
+					background-color:red;
+					}
+				.one
+					{
+					width: 700px;
+					overflow: hidden;
+					background-color:#336666;
+					margin: 24px 0px;
+					}
+				
+				.oneone
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#660099;
+					float: left;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				.onethree
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#CC3300;
+					border: 10px solid white  ;
+					float: right;
+					overflow: hidden;
+					}
+				.onetwo
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#333366;
+					margin: 0px auto;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				
+				.two
+					{
+					width: 700px;
+					overflow: hidden;
+					background-color:#990033;
+					margin: 14px 0px;
+					
+					}
+				
+				.twoone
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#660099;
+					float: left;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				.twothree
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#CC3300;
+					border: 10px solid white  ;
+					float: right;
+					overflow: hidden;
+					}
+				.twotwo
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#333366;
+					margin: 0px auto;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				
+				
+				.three
+					{
+					width: 700px;
+					overflow: hidden;
+					background-color:#CC3333;
+					margin: 14px 0px;
+					
+					}
+				.threeone
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#660099;
+					float: left;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				.threethree
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#CC3300;
+					border: 10px solid white  ;
+					float: right;
+					overflow: hidden;
+					}
+				.threetwo
+					{
+					width: 204px;
+					height: 161px;
+					background-color:#333366;
+					margin: 0px auto;
+					border: 10px solid white  ;
+					overflow: hidden;
+					}
+				.footer
+					{
+					overflow: hidden;
+					background-color:#333366;
+					position: relative;
+					}
+				.mfooter
+					{
+					overflow: hidden;
+					width: 940px;
+					margin : 0px auto;
+					background-color: red;
+					
+					}
+				.lfooter
+					{
+					overflow: hidden;
+					
+					width: 299px;
+					float: left;
+					background-color: #404040 ;
+					margin: 54px 0px 30px 0px;
+					}
+				.informed	
+					{
+					height: 109px;
+					width: 299px;
+					
+					overflow: hidden;
+					background-color: black ;
+					
+					}
+				.submit	
+					{
+					height: 30px;
+					width: 80px;
+					overflow: hidden;
+					background-color: orange ;
+					margin: 35px 0px 0px 218px;
+					}
+				
+				.rfooter
+					{
+					overflow: hidden;
+					width: 360px;
+					float: right;
+					background-color: #404040 ;
+					margin: 54px 0px 30px 0px;
+					}
+				.connected
+					{
+					height: 106px;
+					width: 367px;
+					overflow: hidden;
+					background-color: orange ;
+					
+					}
+				.copyrights
+					{
+					width: 940px;
+					overflow: hidden;
+					background-color: blue;
+					position: relative;
+					margin: 0px auto;
+					}
+				.privacy
+					{
+					width: 250px;
+					height: 31px;
+					background-color: pink;
+					margin: 30px 0px 30px 0px;
+					overflow: hidden;
+					}
+				.social
+					{
+					width: 205px;
+					overflow: hidden;
+					background-color: white;
+					margin: 28px 0px 0px 0px;
+					}
+					
+				.tweface
+					{
+					width:80px;
+					overflow: hidden;
+					float: left;
+					background-color: yellow;
+					}
+						
+						
+				.tweeter
+					{
+					width: 38px;
+					height: 38px;
+					background-color: black;
+					float: left;
+					overflow: hidden;
+					}
+				.facebook
+					{
+					width: 38px;
+					height: 38px;
+					background-color: black;
+					margin: 0px 0px 0px 4px;
+					float: right;
+					overflow: hidden;
+					}
+				.ginsta
+					{
+					width:80px;
+					overflow: hidden;
+					float: right;
+					background-color: yellow;
+					overflow: hidden;
+					}
+				.gmail
+					{
+					width: 38px;
+					height: 38px;
+					background-color: black;
+					float: left;
+					overflow: hidden;
+					}
+				.instagram
+					{
+					width: 38px;
+					height: 38px;
+					background-color: black;
+					margin: 0px 0px 0px 4px;
+					float: right;
+					overflow: hidden;
+					}	
+				.pinterest
+					{
+					width: 38px;
+					height: 38px;
+					background-color: black;
+					margin: 0px auto;
+					overflow: hidden;
+					}
+				.bar
+					{
+					width: 54px;
+					height: 54px;
+					background-color: yellow;
+					margin: -120px 0px 0px 1200px;
+					overflow: hidden;
+					position: absolute;
+					}
+					
+				
+					
+				@font-face 
+					{
+					font-family: oswald;
+					src: url("font//oswald-light.ttf");
+					}
+					
+				@font-face 
+					{
+					font-family: opensans;
+					src: url("font//opensans-regular.ttf");
+					}
+				@font-face 
+					{
+					font-family: opensans-italic;
+					src: url("font//opensans-italic.ttf");
+					}
+				h1
+					{font-family: oswald;}
+				h2
+					{font-family: opensans;}
+				h3
+					{font-family: opensans-italic;}
+				
+			</style>
+		</head>
+		<body>
+			<div class="header">
+				<div class="wrapper">
+				
+					<div class="life">
+					</div>
+					
+					<div class="nav">
+						<div class="donate">
+						</div>
+						<div class="navbar">
+						</div>
+					</div>
+					
+				</div>
+		
+			</div>
+			
+			<div class="slider">
+				<div class="ups">
+					<div class="rightup">
+					</div>
+				</div>
+				
+				<div class="bottoms">
+					<div class="leftb">
+					
+						<div class="leftbb">
+						</div>
+						<div class="rightbb">
+						</div>
+						
+					</div>
+					
+					<div class="rightb">
+					</div>
+					
+				</div>
+			</div>
+			
+			<div class="main">
+				<div class="agenda">
+				
+					<div class="leftm">
+						<div class="latestnews">
+						</div>
+						<div class="upm">
+							<div class="jan1">
+								<div class="jan29">
+								</div>
+								<div class="viva">
+								</div>
+							</div>
+							<div class="jan2">
+								<div class="feb2">
+								</div>
+								<div class="dere">
+								</div>
+							</div>
+							<div class="jan3">
+								<div class="feb20">
+								</div>
+								<div class="hova">
+								</div>
+							</div>
+							<div class="jan4">
+								<div class="march5">
+								</div>
+								<div class="melo">
+								</div>
+							</div>
+						</div>
+						<div class="downm">
+							<div class="testimonials">
+							</div>
+							<div class="quote">
+							</div>
+						</div>
+					</div>
+				
+					<div class="rightm">
+						<div class="campaign">
+						</div>
+						<div class="one">
+							<div class="oneone">
+							</div>
+		
+							<div class="onethree">
+							</div>
+								
+							<div class="onetwo">
+							</div>
+						</div>
+							
+						<div class="two">
+							<div class="twoone">
+							</div>
+								
+							<div class="twothree">
+							</div>
+								
+							<div class="twotwo">
+							</div>
+						</div>
+							
+						<div class="three">
+							<div class="threeone">
+							</div>
+								
+							<div class="threethree">
+							</div>
+								
+							<div class="threetwo">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="mfooter">
+					<div class="lfooter">
+						<div class="informed">
+						</div>
+						<div class="submit">
+						</div>
+					</div>
+					
+						
+					<div class="rfooter">
+						<div class="connected">
+						</div>
+						<div class="social">
+							<div class="tweface">
+								<div class="tweeter">
+								</div>
+								<div class="facebook">
+								</div>
+							</div>
+							<div class="ginsta">
+								<div class="gmail">
+								</div>
+								<div class="instagram">
+								</div>
+							</div>
+							<div class="pinterest">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+			
+			<div class="copyrights">
+				<div class="privacy">
+				</div>
+			</div>
+			<div class="bar">
+					</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p> 
+				<h1> 	
+					The media that journalism uses vary diversely and include: 
+					content published via newspapers and magazines (print), 
+					television and radio (broadcast), and their digital media versions 
+					news websites and applications. 
+				</h1> 
+			</p>
+			<br>
+			<p>
+			<p> 
+				<h2> The media that journalism uses vary diversely and include: 
+					content published via newspapers and magazines (print), 
+					television and radio (broadcast), and their digital media versions 
+					news websites and applications. 
+				</h2>
+			</p>
+			<br>
+			<p> 
+				<h3> The media that journalism uses vary diversely and include: 
+					content published via newspapers and magazines (print), 
+					television and radio (broadcast), and their digital media versions 
+					news websites and applications. 
+				</h3>
+			</p>
+		</body>
+	</html>
